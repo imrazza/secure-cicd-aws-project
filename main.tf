@@ -16,7 +16,7 @@ resource "aws_kms_alias" "s3_key_alias" {
 
 # S3 Bucket
 resource "aws_s3_bucket" "demo" {
-  bucket = "devsecops-demo-bucket"
+  bucket = "imrazza-devsecops-demo-bucket"
 }
 
 # Block public access
