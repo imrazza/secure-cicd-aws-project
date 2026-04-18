@@ -5,7 +5,7 @@ provider "aws" {
 # KMS Key (Customer Managed)
 resource "aws_kms_key" "s3_key" {
   description             = "S3 bucket CMK"
-  deletion_window_in_days = 7
+  deletion_window_in_days = 10
   enable_key_rotation     = true
 }
 
